@@ -11,6 +11,6 @@ Npm.depends({
 
 Package.onUse(function(api) {
     api.versionsFrom('1.0');
-    api.export('ical');
+    api.export('ical', ['server']);
     api.addFiles('ical-generator.js', ['server']);
 });
