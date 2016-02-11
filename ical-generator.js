@@ -1,1 +1,3 @@
-ical = Npm.require('ical-generator');
+if (Meteor.isServer) {
+    ical = Npm.require('ical-generator');
+}
