@@ -1,7 +1,7 @@
 Package.describe({
     name: 'jossoco:ical-generator',
     summary: 'Meteor package wrapping sebbo2002/ical-generator 0.2.7',
-    version: '1.0.0',
+    version: '1.0.1',
     git: 'https://github.com/jossoco/meteor-ical-generator.git'
 });
 
